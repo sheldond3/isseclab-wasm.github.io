@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="wasm_exec.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href ="style.css">
+    
+ 
+    <title>proj1</title>
+</head>
+<body>
+    <!--Get user input from text box-->
+    <div class = "center">
+        <div>
+            <label for="userWord">Enter Word:</label><br>
+            <input type="text" id="userWord" name="userTextbox" placeholder="Type A Word Here"><br>
+            <button id="submit" onclick = "display()">Submit</button>
+            <button id="submit" onclick = "reset()">Reset</button>
+        <!--onclick="goDisplayName(value)"-->
+        </div>
+
+        <div id="displaySection">
+
+
+        </div>
+    </div>
+
+</body>
+</html>

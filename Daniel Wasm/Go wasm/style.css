@@ -1,0 +1,29 @@
+.center{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    z-index: 15;
+    top: 25%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    text-align: center;
+  
+
+}
+
+#displaySection{
+    top: 65%;
+    left: 50%;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.displayBox{
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    background-color: whitesmoke; 
+    margin: 5px;
+    
+
+}
